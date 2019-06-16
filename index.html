@@ -1,0 +1,258 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+<title>学号+姓名</title>
+<link rel=stylesheet href="css/common.css">
+<link rel=stylesheet href="css/jdc-side-panel.css">
+<link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/font-awesome/4.6.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/helang.css">
+<link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+<style type="text/css">
+	.info_box{
+		margin: 100px auto 0 auto;
+		width: 400px;
+		background-color: #ffffff;
+		color: #333333;
+		padding:0 0 0 30px;
+	}
+	.info_box>li{
+		padding: 15px 0;
+		font-size: 14px;
+		border-top: #e5e5e5 dashed 1px;
+	}
+	.info_box>li:first-child{
+		list-style: none;
+		font-size: 16px;
+		color: #FD463E;
+		border-top: none;
+		font-weight: bold;
+	}
+	.info_box>li:last-child{
+		list-style: none;
+		font-size: 12px;
+		color: #999999;
+		*{padding: 0px;margin: 0px;}
+#flash{width:1200px;height: 535px;margin: 50px auto;position: relative;}
+#flash #play{width:1200px;height: 535px;list-style: none;position:absolute;top:0px;left:0px;}
+#flash #play li{display: none;position:absolute;top:0px;left:0px;}
+#flash #play li img{float: left;}
+#button{position: absolute;bottom:20px;left:470px;list-style: none;}
+#button li{margin-left: 10px;float: left;}
+#button li div{width:12px;height: 12px;background:#DDDDDD;border-radius: 6px;cursor: pointer;}
+#prev{width:40px;height:63px;background:url(images/beijing.png) 0px 0px;position: absolute;top:205px;left:10px;z-index: 1000;}
+#next{width:40px;height:63px;background:url(images/beijing.png) -40px 0px;position: absolute;top:205px;right:10px;z-index: 1000;}
+#prev:hover{background:url(images/beijing.png) 0px -62px;}
+#next:hover{background:url(images/beijing.png) -40px -62px;}
+*{padding: 0px;margin: 0px;}
+#flash{width:1200px;height: 535px;margin: 50px auto;position: relative;}
+#flash #play{width:1200px;height: 535px;list-style: none;position:absolute;top:0px;left:0px;}
+#flash #play li{display: none;position:absolute;top:0px;left:0px;}
+#flash #play li img{float: left;}
+#button{position: absolute;bottom:20px;left:470px;list-style: none;}
+#button li{margin-left: 10px;float: left;}
+#button li div{width:12px;height: 12px;background:#DDDDDD;border-radius: 6px;cursor: pointer;}
+#prev{width:40px;height:63px;background:url(images/beijing.png) 0px 0px;position: absolute;top:205px;left:10px;z-index: 1000;}
+#next{width:40px;height:63px;background:url(images/beijing.png) -40px 0px;position: absolute;top:205px;right:10px;z-index: 1000;}
+#prev:hover{background:url(images/beijing.png) 0px -62px;}
+#next:hover{background:url(images/beijing.png) -40px -62px;}
+	}
+*{padding: 0px;margin: 0px;}
+#flash{width:1200px;height: 535px;margin: 0px auto;position: relative;}
+#flash #play{width:1200px;height: 535px;list-style: none;position:absolute;top:0px;left:0px;}
+#flash #play li{display: none;position:absolute;top:0px;left:0px;}
+#flash #play li img{float: left;}
+#button{position: absolute;bottom:20px;left:470px;list-style: none;}
+#button li{margin-left: 10px;float: left;}
+#button li div{width:12px;height: 12px;background:#DDDDDD;border-radius: 6px;cursor: pointer;}
+#prev{width:40px;height:63px;background:url(images/beijing.png) 0px 0px;position: absolute;top:205px;left:10px;z-index: 1000;}
+#next{width:40px;height:63px;background:url(images/beijing.png) -40px 0px;position: absolute;top:205px;right:10px;z-index: 1000;}
+#prev:hover{background:url(images/beijing.png) 0px -62px;}
+#next:hover{background:url(images/beijing.png) -40px -62px;}
+</style>
+<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/guide-septAct.css">
+
+<div class="guide-all">
+	<div class="all-bg">
+		<div class="all-layout">
+			<a href="https://www.taobao.com/"></a>
+			<span class="guide-all-close"></span>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/guidetool.js"></script>
+<div>
+<nav class="hl_nav">
+    <ul class="nav_list">
+        <li class="highlight active">
+            <a class="nav_head" href="javascipt:;">
+                <i class="icon fa fa-home"></i>
+                <span>网站首页</span>
+            </a>
+            <a href="javascipt:;" class="item">二级导航1</a>
+            <a href="javascipt:;" class="item">二级导航2</a>
+            <a href="javascipt:;" class="item">二级导航3</a>
+            <a href="javascipt:;" class="item">二级导航4</a>
+            <a href="javascipt:;" class="item">二级导航4</a>
+        </li>
+        <li class="highlight">
+            <a class="nav_head" href="javascipt:;">
+                <i class="icon fa fa-cloud-download"></i>
+                <span>在线下载</span>
+            </a>
+            <a href="javascipt:;" class="item">二级导航1</a>
+            <a href="javascipt:;" class="item">二级导航2</a>
+            <a href="javascipt:;" class="item">二级导航3</a>
+        </li>
+        <li class="highlight">
+            <a class="nav_head" href="javascipt:;">
+                <i class="icon fa fa-diamond"></i>
+                <span>成功案例</span>
+            </a>
+            <a href="javascipt:;" class="item">二级导航1</a>
+            <a href="javascipt:;" class="item">二级导航2</a>
+            <a href="javascipt:;" class="item">二级导航3</a>
+            <a href="javascipt:;" class="item">二级导航4</a>
+            <a href="javascipt:;" class="item">二级导航4</a>
+        </li>
+        <li class="highlight">
+            <a class="nav_head" href="javascipt:;">
+                <i class="icon fa fa-list-alt"></i>
+                <span>新闻动态</span>
+            </a>
+            <a href="javascipt:;" class="item">二级导航1</a>
+            <a href="javascipt:;" class="item">二级导航2</a>
+            <a href="javascipt:;" class="item">二级导航3</a>
+        </li>
+        <li class="highlight">
+            <a class="nav_head" href="javascipt:;">
+                <i class="icon fa fa-comments"></i>
+                <span>与我联系</span>
+            </a>
+            <a href="javascipt:;" class="item">二级导航1</a>
+            <a href="javascipt:;" class="item">二级导航2</a>
+        </li>
+        <li>
+            <a class="nav_head" href="javascipt:;">
+                <i class="icon fa fa-user"></i>
+                <span>关于我们</span>
+            </a>
+        </li>
+        <li class="right highlight">
+            <a class="nav_head" href="javascipt:;">
+                <i class="icon fa fa-cog "></i>
+                <span>个人中心</span>
+            </a>
+            <a href="javascipt:;" class="item">修改资料</a>
+            <a href="javascipt:;" class="item">在线充值</a>
+            <a href="javascipt:;" class="item">升级会员</a>
+            <a href="javascipt:;" class="item">安全设置</a>
+            <a href="javascipt:;" class="item">退出帐号</a>
+        </li>
+    </ul>
+    <div class="shade"></div>
+</nav>
+
+
+<script type="text/javascript" src="js/script.js"></script>
+<div id="flash">
+     <div id="prev"></div>
+     <div id="next"></div>
+	 <ul id="play">
+	 	<li style="display: block;"><img src="images/1.jpg" alt="" /></li>
+	 	<li><img src="images/2.jpg" alt="" /></li>
+	 	<li><img src="images/3.jpg" alt="" /></li>
+	 	<li><img src="images/4.jpg" alt="" /></li>
+	 	<li><img src="images/5.jpg" alt="" /></li>
+	 	<li><img src="images/6.jpg" alt="" /></li>
+	 	<li><img src="images/7.jpg" alt="" /></li>
+	 	<li><img src="images/8.jpg" alt="" /></li>
+	 </ul>
+	 <ul id="button">
+	 	<li><div style="background: #A10000;"></div></li>
+	 	<li><div></div></li>
+	 	<li><div></div></li>
+	 	<li><div></div></li>
+	 	<li><div></div></li>
+	 	<li><div></div></li>
+	 	<li><div></div></li>
+	 	<li><div></div></li>
+	 </ul>
+ </div>
+
+
+
+
+
+
+<script src="/demos/googlegg.js"></script>
+
+<div class="jdc-side" style="display: block;">
+  <div class="mod_hang_qrcode jdc_feedback_qrcode">
+    <div class="mod_hang_qrcode_btn"><i class="jdcfont"></i><span>扫码反馈</span></div>
+    <div class="mod_hang_qrcode_show">
+      <div class="mod-qr-tips"></div>
+      <div class="mod_hang_qrcode_show_bg">
+        <div id="canvas" style="height: 123px; width: 123px;"><img src="images/qr_img.png"></div>
+      </div>
+      <p>扫一扫，反馈当前页面</p>
+    </div>
+  </div>
+  <div class="mod_hang_appeal">
+    <div class="mod_hang_appeal_btn"><i class="jdcfont"></i> <span>咨询反馈</span></div>
+    <div class="mod_hang_appeal_show">
+      <ul>
+        <li><a href="#" target="_blank">
+          <div class="icon_box"><i class="jdcfont"></i></div>
+          <div class="text_box">
+            <h5>人工客服</h5>
+            <p>7*12 专业客服，服务咨询</p>
+          </div>
+          </a></li>
+        <li id="entry"><a href="#" target="_blank" class="f-cb">
+          <div class="icon_box"><i class="jdcfont"></i></div>
+          <div class="text_box">
+            <h5>工单服务</h5>
+            <p>7*24全时处理，技术支持</p>
+          </div>
+          </a></li>
+        <li><a href="#" target="_blank" class="f-cb">
+          <div class="icon_box"><i class="jdcfont"></i></div>
+          <div class="text_box">
+            <h5>投诉建议</h5>
+            <p>倾耳聆听，一个工作日内及时处理</p>
+          </div>
+          </a></li>
+      </ul>
+    </div>
+    </div>
+  <div class="mod_hang_qrcode jdc_hang_qrcode"><a class="mod_hang_qrcode_btn"><i class="jdcfont"></i><span>扫码关注</span></a>
+    <div class="mod_hang_qrcode_show">
+      <div class="mod_hang_qrcode_show_bg"></div>
+      <p>站长云微信公众号</p>
+    </div>
+  </div>
+  <div class="mod_hang_qrcode mod_hang_top"><a href="#" class="mod_hang_qrcode_btn"><i class="jdcfont"></i><span>返回顶部</span></a></div>
+  <div class="el-dialog__wrapper" style="display: none;">
+    <div class="el-dialog el-dialog--small" style="top: 15%;">
+      <div class="el-dialog__header"><span class="el-dialog__title"></span>
+        <div type="button" class="el-dialog__headerbtn"><i class="el-dialog__close el-icon el-icon-close"></i></div>
+      </div>
+      </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
